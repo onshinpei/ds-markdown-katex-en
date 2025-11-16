@@ -6,7 +6,6 @@ import { katexPlugin } from 'ds-markdown/plugins';
 import type { MarkdownRef } from 'ds-markdown';
 import dataJson from './data.json';
 
-import 'ds-markdown/style.css';
 import 'ds-markdown/katex.css';
 
 function throttle<T extends unknown[]>(fn: (...args: T) => void, delay: number) {
